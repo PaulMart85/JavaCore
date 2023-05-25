@@ -1,0 +1,4 @@
+ FROM bellsoft/liberica-openjdk-alpine
+ WORKDIR /app
+ COPY ./bin .
+ CMD java -classpath . sample.Client
